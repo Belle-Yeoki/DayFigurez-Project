@@ -32,61 +32,80 @@ Date Table: Captures time-based data for analyzing trends over months, quarters,
 The data was collected from the company’s internal transaction records and customer management systems.
 
 ## DATA MODELLING AND TRANSFORMATION
-![](DimensionalModel(Dim).png)
-1[](PowerQueryTables.png)
+
+![](PowerQueryTables.png)
+
 Data Cleaning: Irrelevant or incomplete data entries were removed or imputed. Categorical variables such as gender and product categories were standardized.
+
+![](DimensionalModel(Dim).png)
 Data Modeling: Relationships were established between the Fact Table and the Customer, Product, Salesperson, and Date tables using foreign keys like customer ID, product ID, and salesperson ID.
+
 Calculations and Measures: Created measures for key performance indicators (KPIs) such as total revenue, profit, refund rates, revenue by gender, and revenue vs. store targets using DAX (Data Analysis Expressions).
 
 ## ANALYSIS AND VISUALS
-Dashboard 1: Customer and Product Performance
+## Dashboard 1: Customer and Product Performance
+
 ![](CustomerBehaviourDashboard(Dim).png)
 
-Overview of Key Metrics:
+Overview of Key Metrics: Total Revenue: ₦5.45 million from 600 customers.
 
-Total Revenue: ₦5.45 million from 600 customers.
 Profit: ₦2.3 million, with ₦3.15 million in COGS.
+
 Average Revenue per Customer: ₦9,083.
+
 Revenue Distribution:
-By Gender:
-Male customers contributed 51.7% of total revenue.
+By Gender: Male customers contributed 51.7% of total revenue.
+
 Female customers contributed 48.53%.
-By Age Group:
-26-50 years: ₦2.65M (largest contributor).
+
+By Age Group: 26-50 years: ₦2.65M (largest contributor).
+
 51-72 years: ₦2.15M.
+
 19-25 years: ₦643K.
-Top-Selling Products:
-Begin Brew generated ₦410,819.97, the highest revenue, followed by Over Splash and Side Brew.
-Refunded Products:
-Pm Fusion led refunds with 428 units returned, highlighting a need to improve product quality or marketing strategy.
+
+Top-Selling Products: Begin Brew generated ₦410,819.97, the highest revenue, followed by Over Splash and Side Brew.
+
+Refunded Products:Pm Fusion led refunds with 428 units returned, highlighting a need to improve product quality or marketing strategy.
 Monthly Profit Trends:
+
 Profits grew steadily in August, May, and March, while January and February underperformed, indicating potential seasonal effects.
 
-Dashboard 2: Store Performance & Revenue Targets
-![]()
-Key Insights:
-Total Stores: 10 stores analyzed.
-Annual Target: ₦5.3 million.
-Revenue Variance: ₦191.8k (monthly variance).
-Target % Difference from Revenue: -3.52%.
-Store Revenue Insights:
-Store with ID 3 had the highest revenue target, yet all stores generated nearly equal revenue. This suggests potential inefficiencies in the target-setting process.
-Monthly Target vs Revenue Fluctuations:
-The analysis of monthly revenue reveals peaks in months like August, May, and March, while other months failed to meet expectations, suggesting opportunities to optimize performance during off-peak months.
+## Dashboard 2: Store Performance & Revenue Targets
+![](Product&RevenueAnalysis(Dim).png)
 
-Dashboard 3: Salesperson & Revenue Breakdown
-![](SalesPerson AnalysisDashboard(Dim).png)
+Key Insights:
+
+Total Stores: 10 stores analyzed.
+
+Annual Target: ₦5.3 million.
+
+Revenue Variance: ₦191.8k (monthly variance).
+
+Target % Difference from Revenue: -3.52%.
+
+Store Revenue Insights:Store with ID 3 had the highest revenue target, yet all stores generated nearly equal revenue. This suggests potential inefficiencies in the target-setting process.
+
+Monthly Target vs Revenue Fluctuations:The analysis of monthly revenue reveals peaks in months like August, May, and March, while other months failed to meet expectations, suggesting opportunities to optimize performance during off-peak months.
+
+## Dashboard 3: Salesperson & Revenue Breakdown
+![](SalesPersonAnalysisDashboard(Dim).png)
 Salesperson Performance:
 
-Total Salespersons: 10 distinct salespeople working across shifts.
-Sales performance was consistent, indicating balanced staffing across the week.
+Total Salespersons: 10 distinct salespeople working across shifts.Sales performance was consistent, indicating balanced staffing across the week.
+
 Revenue by Day of the Week:
+
 Weekday Sales: ₦4 million, far higher than weekend sales at ₦1.6 million, suggesting room for growth through weekend promotions.
+
 Quarterly Revenue vs Target Analysis:
+
 Q3 generated the highest revenue of ₦1.38M, exceeding the target of ₦1.33M. All quarters performed consistently, though Q3 was the peak performer.
 Payment Method Insights:
+
 Revenue was evenly spread across all payment channels, demonstrating that customers use various payment methods effectively.
-Actionable Insights and Recommendations
+
+## ACTIONABLE INSIGHTS AND RECOMMENDATION
 Boost Weekend Sales:
 
 Implement weekend promotions to drive sales, as current weekend revenue (₦1.6 million) lags significantly behind weekday revenue (₦4 million).
@@ -102,7 +121,8 @@ With strong revenue growth in August, May, and March, the company should increas
 Improved Forecasting and Goal Setting:
 
 Revenue fluctuations across months suggest the need for more dynamic forecasting and target-setting processes that adapt to market conditions and seasonal trends.
-Conclusion
+
+## CONCLUSION
 This Power BI-driven analysis provided a comprehensive look at customer demographics, product performance, store efficiency, and sales trends. The insights generated can be directly applied to business strategy, offering clear recommendations for improving sales performance, product profitability, and operational efficiency.
 
 Next Steps:
