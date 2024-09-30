@@ -43,6 +43,7 @@ Data Modeling: Relationships were established between the Fact Table and the Cus
 Calculations and Measures: Created measures for key performance indicators (KPIs) such as total revenue, profit, refund rates, revenue by gender, and revenue vs. store targets using DAX (Data Analysis Expressions).
 
 ## ANALYSIS AND VISUALS
+ link to Power BI project : https://drive.google.com/file/d/1uLfHti4YvGmsEVtdJUTP8o1kuqWhJYtH/view?usp=drive_link
 ## Dashboard 1: Customer and Product Performance
 
 ![](CustomerBehaviourDashboard(Dim).png)
