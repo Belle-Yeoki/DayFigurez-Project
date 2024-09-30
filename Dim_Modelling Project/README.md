@@ -31,7 +31,7 @@ Fact Table: Contains transactional data such as sales amount, cost of goods sold
 Date Table: Captures time-based data for analyzing trends over months, quarters, and weekdays.
 The data was collected from the company’s internal transaction records and customer management systems.
 
-## DATA MODELLING AND TRANSFORMATION
+## DATA TRANSFORMATION AND MODELLING
 
 ![](PowerQueryTables.png)
 
