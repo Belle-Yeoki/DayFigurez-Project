@@ -46,7 +46,7 @@ The analysis was divided into three key areas: customer behavior, offer analysis
 
 ## Customer Behavior:
 
-![](CustomerbehaviourDashboard)
+![](CustomerbehaviourDashboard.png)
 
 Maven Cafe experienced a steady increase in customer numbers over time, particularly in 2017 and 2018, which contributed to higher revenue and sales.
 
