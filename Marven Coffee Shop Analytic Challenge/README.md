@@ -44,7 +44,7 @@ A calendar table was also created to facilitate time-based analysis, enabling th
 ## Visualization and Observations
 The analysis was divided into three key areas: customer behavior, offer analysis, and reward and transaction performance.
 
-Customer Behavior:
+## Customer Behavior:
 
 ![](CustomerbehaviourDashboard)
 
@@ -54,7 +54,7 @@ Seasonal trends indicate that sales peak in August, October, and December, poten
 
 Despite having 5056 customers in the 70-118 age bracket, this group generates only 21% of the total income. In contrast, the 55-69 age group, with 4801 customers, contributes 34.86% of the income, while the 36-54 group generates 31.54%, and the 18-36 group accounts for 12.45%.
 
-Offer Segment Analysis:
+## Offer Segment Analysis:
 
 ![](OffersegmentDashboard.png)
 The cafe offers 10 distinct offers categorized as Bogo, Information, and Discount, promoted through four primary channel groups.
@@ -69,14 +69,18 @@ In 2017, the highest number of offers were viewed (21,925) and completed (12,595
 
 Detailed analysis shows that no Information offers were completed, despite 15,235 being received and 10,831 being viewed. Conversely, 17,910 Discount offers were completed from 30,543 received, and 15,669 Bogo offers were completed from 30,499 received.
 
-Reward and Transaction Dashboard Analysis:
+## Reward and Transaction Dashboard Analysis:
 ![](TransactionAnalysis.png)
 
 The total rewards generated amounted to $164.68k, with an average reward per customer of $0.9827.
+
 A total of 139k transactions were recorded, generating $178m in revenue. The average transaction amount was $12.7774, and the average transaction per customer was $104.5.
 Over the years, 2017 topped the chart in total rewards, transactions, and income generated, as represented visually in the dashboards.
+
 The Bogo offer type saw the highest completion rate, with 113,440 rewards completed (68.89%), followed by Discount offers with 51,236 rewards completed (31.11%). No rewards were completed for the Information offer type.
+
 The difficulty amount, required to complete an offer, was analyzed across five levels: $0, $5, $7, $10, and $20, tied to different offer types. The performance of these difficulty levels was also visualized.
+
 Offers tied to longer durations (e.g., 7 days) saw higher completion rates and transaction volumes, with 30,613 offers received, 22,342 viewed, and 17,215 completed.
 
 ## Conclusion
