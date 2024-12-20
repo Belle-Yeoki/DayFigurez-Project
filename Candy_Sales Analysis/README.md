@@ -9,8 +9,11 @@ This report analyzes customer behavior, factory performance, and shipping trends
 The primary objective of this report is to provide a comprehensive analysis of the candy shop’s sales performance. It aims to:
 
 Identify key customer behavior patterns.
+
 Evaluate factory performance and product division contributions.
+
 Analyze shipping trends and their impact on sales.
+
 Highlight seasonal trends that influence revenue generation.
 
 ## Methodology
@@ -20,10 +23,15 @@ The analysis was conducted using Power BI, where data from various tables was in
 The dataset comprises six main tables:
 
 Sales Table: Contains order details such as Order ID, Ship Date, Customer ID, and revenue.
+
 Factories Table: Provides information on factories, including factory names and geolocation data.
+
 Products Table: Lists product details, including division, price, and cost.
+
 Targets Table: Displays sales targets for the year 2024 across divisions.
+
 US Zips Table: Contains zip code information, including population density and geographic coordinates.
+
 Calendar Table: Provides a time-based dimension used for calculating metrics like shipping days and monthly trends.
 
 ## Data Preparation
@@ -38,7 +46,9 @@ Cleaning and transforming the US Zips table to remove irrelevant information and
 ![](CandyModel.png)
 
 Customer Behavior: The sales table was used to analyze repeat customers and overall order count. Key metrics such as total customers, repeat customer rate, and total revenue were calculated using DAX functions.
+
 Factory and Product Analysis: Factories were assessed by revenue contribution, while products were analyzed based on their sales performance. The merged table helped identify which products and factories generated the highest revenue.
+
 Shipping and Seasonal Trends: Using the shipping date and order date, a DAX function was created to calculate shipping duration. Seasonal trends were identified by analyzing sales by month and year.
 
 ##  Observations
